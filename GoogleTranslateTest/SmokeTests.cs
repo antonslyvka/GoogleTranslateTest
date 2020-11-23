@@ -13,11 +13,7 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
-            ChromeOptions options = new ChromeOptions();
-            options.AddArguments("--lang=en");
-            driver = new ChromeDriver(Constants.BrowserParam, options);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            driver.WindowsMaximize();
+            driver = BrowserActions.StartBrowser();
         }
 
         [TearDown]

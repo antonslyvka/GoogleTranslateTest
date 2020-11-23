@@ -16,11 +16,9 @@ namespace Tests
         [SetUp]
         public void Setup()   
         {
-            ChromeOptions options = new ChromeOptions();
-            options.AddArguments("--lang=en");
-            driver = new ChromeDriver(Constants.BrowserParam, options);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            driver.WindowsMaximize();
+            driver = BrowserActions.StartBrowser();
+            //driver = new ChromeDriver(Constants.BrowserParam, BrowserActions.BrowserParamsToEnglish());
+            //driver.BrowserParams();
             driver.GoToUrl(Constants.BaseURL);
             driver.CloseNotification();
         }
