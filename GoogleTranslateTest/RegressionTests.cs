@@ -6,8 +6,6 @@ using System;
 
 namespace Tests
 {
-
-
     [TestFixture]
     public class Tests
     {
@@ -17,8 +15,6 @@ namespace Tests
         public void Setup()   
         {
             driver = BrowserActions.StartBrowser();
-            //driver = new ChromeDriver(Constants.BrowserParam, BrowserActions.BrowserParamsToEnglish());
-            //driver.BrowserParams();
             driver.GoToUrl(Constants.BaseURL);
             driver.CloseNotification();
         }
