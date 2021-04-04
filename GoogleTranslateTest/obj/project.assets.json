@@ -5017,11 +5017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\GoogleTranslateTest\\GoogleTranslateTest\\GoogleTranslateTest.csproj",
+      "projectUniqueName": "C:\\Projects\\test\\GoogleTranslateTest\\GoogleTranslateTest\\GoogleTranslateTest.csproj",
       "projectName": "GoogleTranslateTest",
-      "projectPath": "C:\\Projects\\GoogleTranslateTest\\GoogleTranslateTest\\GoogleTranslateTest.csproj",
+      "projectPath": "C:\\Projects\\test\\GoogleTranslateTest\\GoogleTranslateTest\\GoogleTranslateTest.csproj",
       "packagesPath": "C:\\Users\\arian\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\GoogleTranslateTest\\GoogleTranslateTest\\obj\\",
+      "outputPath": "C:\\Projects\\test\\GoogleTranslateTest\\GoogleTranslateTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
