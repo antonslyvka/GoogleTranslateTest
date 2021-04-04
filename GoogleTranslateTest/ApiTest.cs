@@ -13,7 +13,8 @@ namespace Tests
         [Test] 
         public void VerifyApiTranslateFromEnglishToUkrainian()
         {
-            Assert.IsTrue(client.ApiTranslate("en", "uk", Constants.words1[0]) == Constants.words1[2]);
+            var zminna = client.ApiTranslate("en", "uk", Constants.words1[0]);
+            Assert.IsTrue(zminna == Constants.words1[2],$"{zminna},{Constants.words1[2]}");
         }
 
 
